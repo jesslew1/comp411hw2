@@ -10,12 +10,12 @@ int main()
         printf("Please enter width and height:\n");
         scanf("%d", &width);
         if (width == 0){
-            printf("End");
+            printf("End\n");
             break;
         }
         scanf("%d", &height);
           if (height == 0){
-            printf("End");
+            printf("End\n");
             break;
         }
         for (int i =0; i < height; i++){
