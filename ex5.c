@@ -35,7 +35,7 @@ int main()
                 for (int j = 0; j < width; j++){
                     if (j != 0 && j != width -1){
                         printf("~");
-                    } else if (j == 0) {
+                    } else if (j == 0 && width > 1) {
                         printf("|");
                     } else {
                         printf("|\n");
