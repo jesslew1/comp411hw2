@@ -9,7 +9,6 @@ int main()
     double max = - DBL_MAX;
     double product = 1;
 
-    while (1) {
         printf("Enter 10 floating-point numbers: \n");
         for (int i = 0; i < 10; i++) {
             scanf("%lf", &r);
@@ -26,5 +25,4 @@ int main()
         printf("Min is %.5lf \n", min);
         printf("Max is %.5lf \n", max);
         printf("Product is %.5lf \n", product);
-    }
 }

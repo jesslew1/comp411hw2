@@ -5,7 +5,6 @@ int main()
 {
     int r;
 
-    while (1) {
     printf("Enter a number from 1 to 20: \n");
     scanf("%d", &r);
         if (r > 20 || r < 1){ 
@@ -22,5 +21,4 @@ int main()
             }
 
         }
-    }
 }
