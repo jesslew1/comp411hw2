@@ -6,7 +6,7 @@ int main()
     int height;
     int width;
 
-    // while (1) {
+    while (1) {
         printf("Please enter width and height:\n");
         scanf("%d", &width);
         if (width == 0){
@@ -35,7 +35,7 @@ int main()
                 for (int j = 0; j < width; j++){
                     if (j != 0 && j != width -1){
                         printf("~");
-                    } else if (j ==0) {
+                    } else if (j == 0) {
                         printf("|");
                     } else {
                         printf("|\n");
@@ -44,5 +44,5 @@ int main()
             }
 
         }
-    // }
+    }
 }
