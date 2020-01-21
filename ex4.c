@@ -4,6 +4,7 @@
 int main()
 {
     int arr[6];
+    while (1){
         printf("Enter 6 integers: \n");
         for (int i = 0; i < 6; i++) {
             scanf("%d", &arr[i]);
@@ -14,4 +15,5 @@ int main()
             printf("%*d \n", 10, arr[i*2 +1]);
 
         }
+    }    
 }
