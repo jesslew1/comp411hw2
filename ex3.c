@@ -13,7 +13,7 @@ int main()
         printf("1234567890bb1234567890\n");
         for (int i = 0; i < 3; i++){
             printf("%*i  ", 10, arr[i*2]);
-            printf("%*i \n", 10, arr[i*2 +1]);
+            printf("%*i  \n", 10, arr[i*2 +1]);
 
         }
     // }    
